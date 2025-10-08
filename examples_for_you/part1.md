@@ -6,19 +6,18 @@ You may assume that each input would have **exactly one solution**, and you may 
 You can return the answer in any order, and in a **Vector** format.
 
 ## Example 1:
->**Input:** nums = [2,7,11,15], target = 9\
->**Output:** [0,1]\
->**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
+**Input:** nums = [2,7,11,15], target = 9\
+**Output:** [0,1]\
+**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ## Example 2:
->**Input:** nums = [3,2,4], target = 6\
->**Output:** [1,2]
+**Input:** nums = [3,2,4], target = 6\
+**Output:** [1,2]
 
 ## Example 3:
->**Input:** nums = [3,3], target = 6\
->**Output:** [0,1]
+**Input:** nums = [3,3], target = 6\
+**Output:** [0,1]
 
-<br>
 <br>
 
 # 2. Task: Palindrome Number
@@ -26,21 +25,20 @@ You can return the answer in any order, and in a **Vector** format.
 Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise.
 
 ## Example 1:
->**Input:** x = 121\
->**Output:** true\
->**Explanation:** 121 reads as 121 from left to right and from right to left.
+**Input:** x = 121\
+**Output:** true\
+**Explanation:** 121 reads as 121 from left to right and from right to left.
 
 ## Example 2:
->**Input:** x = -121\
->**Output:** false\
->**Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+**Input:** x = -121\
+**Output:** false\
+**Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
 ## Example 3:
->**Input:** x = 10\
->**Output:** false\
->**Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.
+**Input:** x = 10\
+**Output:** false\
+**Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.
 
-<br>
 <br>
 
 # 3. Roman to Integer
@@ -69,16 +67,16 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 Given a roman numeral, convert it to an integer.
 
 ## Example 1:
->**Input:** s = "III"\
->**Output:** 3\
->**Explanation:** III = 3.
+**Input:** s = "III"\
+**Output:** 3\
+**Explanation:** III = 3.
 
 ## Example 2:
->**Input:** s = "LVIII"\
->**Output:** 58\
->**Explanation:** L = 50, V= 5, III = 3.
+**Input:** s = "LVIII"\
+**Output:** 58\
+**Explanation:** L = 50, V= 5, III = 3.
 
 ## Example 3:
->**Input:** s = "MCMXCIV"\
->**Output:** 1994\
->**Explanation:** M = 1000, CM = 900, XC = 90 and IV = 4.
+**Input:** s = "MCMXCIV"\
+**Output:** 1994\
+**Explanation:** M = 1000, CM = 900, XC = 90 and IV = 4.
